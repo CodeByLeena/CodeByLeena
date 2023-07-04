@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class LargestOfThree {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Three Numbers:");
+        int fnum=sc.nextInt();
+        int snum=sc.nextInt();
+        int thnum=sc.nextInt();
+        if(fnum >= snum) {
+            if(fnum >= thnum)
+                System.out.println(fnum + " is the largest number.");
+            else
+                System.out.println(thnum + " is the largest number.");
+        } else {
+            if(snum >= thnum)
+                System.out.println(snum + " is the largest number.");
+            else
+                System.out.println(thnum + " is the largest number.");
+        }
+    }
+}
