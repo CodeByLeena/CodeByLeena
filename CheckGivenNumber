@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+class CheckGivenNumber {
+    public static void main(String[] args) {
+        int num=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Number");
+        num=sc.nextInt();
+if(num<0){
+    System.out.println("Number is Negative");
+}else if(num==0){
+    System.out.println("Number is zero");
+}else if(num>0){
+    System.out.println("Number is Positive");
+}
+
+
+    }
+}
