@@ -1,0 +1,9 @@
+public class DataTypeIdentifier {
+    int minutesInHour=60;
+    float PiValue=3.14f;
+    String firstName="Leena";
+    boolean small=false;
+    char a='a';
+    double productPrice=32.51;
+    long distance=12200;
+}
